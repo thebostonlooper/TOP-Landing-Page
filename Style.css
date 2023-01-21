@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    height: 250px;
+    background-color: #1f2937;
+    color: white;
+    flex-direction: column;
+}
+
+.landing-page-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.ul {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
+}
