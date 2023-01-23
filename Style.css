@@ -54,12 +54,10 @@ a {
 
 .left-box {
     display: flex;
-    height: 200px;
+    height: 500px;
     width: 400px;
     margin-left: 250px;
     flex-direction: column;
-    margin-right: 13px;
-    margin-top: 50px;
 }
 
 .image {
@@ -84,4 +82,113 @@ button {
     margin-left: 250px;
     border-color: 1px solid royalblue;
     border-radius: 8px;
+    margin-top: 40px;
+}
+
+/* Section 2 */
+
+.sec-2 {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.header-2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.squares {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    display: flex;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Section 3 */
+
+.sec-3 {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size-adjust: wrap;
+}
+
+quote-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 250px;
+}
+
+.attribution {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Section 4 */
+.sec-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    width: 1000px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+
+.left-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    width: 300px;
+    height: 100px;
+}
+
+.right-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 200px;
 }
