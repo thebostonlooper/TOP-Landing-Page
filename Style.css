@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     margin: 0px;
     height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .header {
@@ -26,6 +27,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 225px;
 }
 
 .logo {
@@ -54,7 +56,7 @@ a {
 
 .left-box {
     display: flex;
-    height: 500px;
+    height: 100px;
     width: 400px;
     margin-left: 250px;
     flex-direction: column;
@@ -64,11 +66,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 250px;
+    margin-right: 200px;
     background-color: rgb(106, 104, 104);
     width: 500px;
     height: 200px;
     margin-top: 50px;
+    margin-left: 75px;
 }
 
 button {
@@ -137,17 +140,16 @@ button {
 
 .quote {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    size-adjust: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
-quote-holder {
+.quote-holder {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 600px;
+    width: 1000px;
     height: 250px;
 }
 
@@ -177,18 +179,47 @@ quote-holder {
     border-radius: 12px;
 }
 
-.left-box {
+.left-box2 {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: left;
-    width: 300px;
-    height: 100px;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 400px;
+    flex-direction: column;
+    margin-left: 150px;
 }
 
-.right-box {
+.right-box2 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 200px;
+    margin-right: 150px;
+    flex: 1;
+}
+
+button {
+    display: flex;
+    color: white;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 120px;
+    border-radius: 8px;
+    margin-top: 30px;
+    border-style: double;
+    border-color: white;
+    font-size: 17px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: #1F2937;
+    color: white;
 }
